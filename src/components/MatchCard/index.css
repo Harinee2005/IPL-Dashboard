@@ -1,0 +1,41 @@
+.matchCardContainer {
+  list-style-type: none;
+  background-color: #0f172a;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.matchCardLogo {
+  height: 60px;
+  width: 60px;
+}
+
+.des {
+  text-align: center;
+}
+
+.green {
+  color: #18ed66;
+}
+
+.red {
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .matchCardLogo {
+    height: 100px;
+    width: 100px;
+  }
+  .matchCardContainer {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+}

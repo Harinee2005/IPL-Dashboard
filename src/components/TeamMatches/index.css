@@ -1,0 +1,35 @@
+.team-matches-container {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100px;
+}
+
+.team-matches-title {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.latestMatchUl {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-container {
+    padding: 30px;
+  }
+  .banner-img {
+    height: 300px;
+  }
+  .team-matches-title {
+    font-size: 26px;
+  }
+}
